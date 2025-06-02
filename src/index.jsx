@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client';
 import ContactApp from './components/ContactApp';
 
 // styling
-import './styles/styles.css';
+import './styles/style.css';
  
 // const element = <h1>Hello, world!</h1>;
  
