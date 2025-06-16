@@ -1,12 +1,15 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 import ContactApp from './components/ContactApp';
+import { BrowserRouter } from 'react-router-dom';
 
 // styling
 import './styles/style.css';
- 
-// const element = <h1>Hello, world!</h1>;
- 
+
 const root = createRoot(document.getElementById('root'));
-// const element = <h1>Hello, world!</h1>;
-root.render(<ContactApp />);
+
+root.render(
+    <BrowserRouter>
+        <ContactApp />
+    </BrowserRouter>
+);
